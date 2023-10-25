@@ -1,0 +1,15 @@
+打开git cmd（可以在开始菜单-所有应用程序-Git CMD)
+(记得打开梯子,不然很慢)
+cd 到你想要的目录
+输入命令：git clone https://github.com/Grasscutters/Grasscutter.git
+等待下载完成，打开你选目录的Grasscutter文件夹
+将我这个教程文件夹里的build.gradle扔到你那个Grasscutter文件夹根目录并替换
+然后对你的源代码进行修改，修改完成后使用打开powershell管理员（右键开始菜单-powershell（管理员），win11叫终端（管理员））
+cd到你的克隆路径下的Grasscutter文件夹
+输入命令：.\gradlew.bat
+等着吧，第一次编译需要进行初始化，大约需要10分钟左右，这个本来就很慢，与梯子（基本）无关
+然后结束后继续输入命令.\gradlew.bat jar
+然后等待，如果报错请检查源代码是否有误
+这个大约需要5分钟左右，与电脑性能有关
+编译成功后会在Grasscutter文件夹根目录生成一个grasscutter-X.X.X.jar文件
+将他重命名为grasscutter.jar然后按照自己制作基础包就可以做好自己的服务端了
